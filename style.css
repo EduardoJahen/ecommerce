@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: rgba(238, 235, 235, 0.918);
+
+}
+
+a {
+    color: rgb(133, 128, 128);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.8vh;
+
+}
+
+p {
+    font-size: 2vh;
+}
+
+.cabecalho {
+    height: 14vh;
+    width: 100vw;
+    background-color: #FFF159;
+
+}
+
+.pesquisa {
+    text-align: center;
+    height: 7vh;
+}
+
+#search {
+    height: 5vh;
+    width: 19vw;
+    margin-top: 1.5vh;
+    border-radius: 2vh;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 10vw;
+    height: 7vh;
+    border: so
+}
+
+.links {
+    height: 4vh;
+    width: 15vw;
+    padding: 0.5vh;
+
+
+}
+
+.links:hover {
+    font-size: 2.8vh;
+    padding: 1%;
+    transition-duration: 0.5s;
+    color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    margin-top: 2.5vh;
+}
+
+.beneficios {
+    background-color: white;
+    height: 13vh;
+    width: 63vw;
+    border-radius: 1vh;
+    margin-left: 40vh;
+    margin-top: 3vh;
+    display: flex; /* Adicionado para usar flexbox */
+}
+
+.pagamento, .parcelas, .parcelamento, .pix {
+    flex: 1; /* Distribui o espaço disponível igualmente entre os elementos filhos */
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagamento {
+    border-right-style: dashed;
+}
+
+.marketList{
+    flex: 1;
+    width: 64vw;
+    margin-top: 3vh;
+    margin-left: 40vh;
+    display: flex;
+    
+}
+
+.marketItem{
+    padding: 1.5vh;
+    text-align: center;
+    height: 40vh;
+    width: 120vw;
+    margin-right: 1vw;
+    border-radius: 1vh;
+    background-color: white;
+}
+
+.textMarket{
+    display: contents;
+}
