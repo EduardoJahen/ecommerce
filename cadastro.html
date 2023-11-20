@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
     </style>
     <title>Cadastro</title>
 </head>
+
 <body>
 
     <section class="cabecalho">
 
         <section class="pesquisa">
-            <input id="search" type="text" placeholder="                       Pesquisar...">
+            <input id="search" type="search" placeholder="Pesquisar...">
         </section>
 
         <section class="navbar">
@@ -33,12 +35,12 @@
 
     <div class="form">
         <form>
-            Nome: <input id="name" type="text"> <br> <br>
-            Email: <input id="email" type="text"> <br> <br>
-            Senha: <input id="password" type="password"> <br> <br>
-            Repita: <input id="password" type="password"> <br> <br>
-            Sexo: <select name="sex" id="masculinoFeminino">
-                <option value="">Prefiro Não informar</option>
+            <label for="Nome">Nome:</label> <input id="name" type="text"> <br> <br>
+            <label for="email">Email:</label> <input id="email" type="email"> <br> <br>
+            <label for="Senha">Senha:</label> <input id="password" type="password"> <br> <br>
+            <label for="repetirSenha">Repita:</label> <input id="password" type="password"> <br> <br>
+            <label for="sexoUsuario">Sexo:</label> <select name="sex" id="masculinoFeminino">
+                <option value="naoInformar">Prefiro Não informar</option>
                 <option value="homen">Masculino</option>
                 <option value="Mulher">Feminino</option>
             </select> <br> <br>
@@ -46,6 +48,7 @@
         </form>
     </div>
 
-    
+
 </body>
+
 </html>

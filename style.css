@@ -61,10 +61,13 @@ p {
 }
 
 .pesquisa {
+    
     text-align: center;
     height: 7vh;
 }
-
+::placeholder{
+    text-align: center;
+}
 #search {
     height: 5vh;
     width: 19vw;
@@ -119,11 +122,16 @@ a:hover {
     border-radius: 1vh;
     margin-left: 40vh;
     margin-top: 3vh;
-    display: flex; /* Adicionado para usar flexbox */
+    display: flex;
+    /* Adicionado para usar flexbox */
 }
 
-.pagamento, .parcelas, .parcelamento, .pix {
-    flex: 1; /* Distribui o espaço disponível igualmente entre os elementos filhos */
+.pagamento,
+.parcelas,
+.parcelamento,
+.pix {
+    flex: 1;
+    /* Distribui o espaço disponível igualmente entre os elementos filhos */
     height: 12vh;
     margin-left: 1vh;
     margin-bottom: 2vh;
@@ -137,16 +145,16 @@ a:hover {
     border-right-style: dashed;
 }
 
-.marketList{
+.marketList {
     flex: 1;
     width: 64vw;
     margin-top: 3vh;
     margin-left: 40vh;
     display: flex;
-    
+
 }
 
-.marketItem{
+.marketItem {
     padding: 1.5vh;
     text-align: center;
     height: 255px;
@@ -157,16 +165,16 @@ a:hover {
     overflow: hidden;
 }
 
-.textMarket{
+.textMarket {
     display: contents;
 }
 
-.marketItem:hover{
+.marketItem:hover {
     transition-duration: 0.5s;
     height: 340px;
 }
 
-.form{
+.form {
     background-color: white;
     width: 40vw;
     height: 60vh;
@@ -178,7 +186,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
 }
 
-.button{
+.button {
     width: 10vw;
     height: 5vh;
 }
