@@ -34,17 +34,20 @@
     </section>
 
     <div class="form">
-        <form>
-            <label for="Nome">Nome:</label> <input id="name" type="text"> <br> <br>
-            <label for="email">Email:</label> <input id="email" type="email"> <br> <br>
-            <label for="Senha">Senha:</label> <input id="password" type="password"> <br> <br>
-            <label for="repetirSenha">Repita:</label> <input id="password" type="password"> <br> <br>
-            <label for="sexoUsuario">Sexo:</label> <select name="sex" id="masculinoFeminino">
-                <option value="naoInformar">Prefiro Não informar</option>
-                <option value="homen">Masculino</option>
-                <option value="Mulher">Feminino</option>
-            </select> <br> <br>
-            <button class="button" type="submit">Enviar</button>
+        <form method="post">
+            <fieldset>
+                <legend>Criar Cadastro</legend>
+                <label for="Nome">Nome:</label> <input id="name" type="text"> <br> <br>
+                <label for="email">Email:</label> <input id="email" type="email"> <br> <br>
+                <label for="Senha">Senha:</label> <input id="password" type="password"> <br> <br>
+                <label for="repetirSenha">Repita:</label> <input id="password" type="password"> <br> <br>
+                <label for="sexoUsuario">Sexo:</label> <select name="sex" id="masculinoFeminino">
+                    <option value="naoInformar">Prefiro Não informar</option>
+                    <option value="homen">Masculino</option>
+                    <option value="Mulher">Feminino</option>
+                </select> <br> <br>
+                <button class="button" type="submit">Enviar</button>
+            </fieldset>
         </form>
     </div>
 
