@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+    </style>
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <section class="cabecalho">
+
+        <section class="pesquisa">
+            <input id="search" type="text" placeholder="                       Pesquisar...">
+        </section>
+
+        <section class="navbar">
+            <div id="links">
+                <a class="links" href="index.html">Inicio</a>
+                <a class="links" href="categorias.html">Categorias</a>
+                <a class="links" href="ofertas.html">Ofertas do dia</a>
+                <a class="links" href="historico.html">Historico</a>
+                <a class="links" href="moda.html">Moda</a>
+                <a class="links" href="cadastro.html">Cadastro de Usuario</a>
+            </div>
+        </section>
+
+    </section>
+
+    <div class="form">
+        <form>
+            Nome: <input id="name" type="text"> <br> <br>
+            Email: <input id="email" type="text"> <br> <br>
+            Senha: <input id="password" type="password"> <br> <br>
+            Repita: <input id="password" type="password"> <br> <br>
+            Sexo: <select name="sex" id="masculinoFeminino">
+                <option value="">Prefiro Não informar</option>
+                <option value="homen">Masculino</option>
+                <option value="Mulher">Feminino</option>
+            </select> <br> <br>
+            <button class="button" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
