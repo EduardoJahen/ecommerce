@@ -1,6 +1,8 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    height: 100%;
+    min-height: 100%;
 }
 
 *,
@@ -35,6 +37,9 @@ img {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     background-color: rgba(238, 235, 235, 0.918);
 
 }
@@ -53,15 +58,15 @@ p {
     font-size: 2vh;
 }
 
+
 .cabecalho {
     height: 14vh;
     width: 100vw;
     background-color: #FFF159;
-
+    
 }
 
 .pesquisa {
-
     text-align: center;
     height: 7vh;
 }
@@ -125,6 +130,7 @@ a:hover {
     margin-left: 30vh;
     margin-top: 3vh;
     display: flex;
+
     /* Adicionado para usar flexbox */
 }
 
@@ -195,6 +201,5 @@ a:hover {
 
 .rodape {
     background-color: #FFF159;
-    text-align: center;
-    height: 10vh;
+    height: 5vh;
 }
