@@ -61,13 +61,15 @@ p {
 }
 
 .pesquisa {
-    
+
     text-align: center;
     height: 7vh;
 }
-::placeholder{
+
+::placeholder {
     text-align: center;
 }
+
 #search {
     height: 5vh;
     width: 19vw;
@@ -79,7 +81,7 @@ p {
     text-align: center;
     margin-bottom: 10vw;
     height: 7vh;
-    border: so
+    width: 100vw;
 }
 
 .links {
@@ -120,7 +122,7 @@ a:hover {
     height: 13vh;
     width: 63vw;
     border-radius: 1vh;
-    margin-left: 40vh;
+    margin-left: 30vh;
     margin-top: 3vh;
     display: flex;
     /* Adicionado para usar flexbox */
@@ -148,8 +150,8 @@ a:hover {
 .marketList {
     flex: 1;
     width: 64vw;
-    margin-top: 3vh;
-    margin-left: 40vh;
+    margin: 3vh auto;
+    margin-left: 30vh;
     display: flex;
 
 }
@@ -189,4 +191,10 @@ a:hover {
 .button {
     width: 10vw;
     height: 5vh;
+}
+
+.rodape {
+    background-color: #FFF159;
+    text-align: center;
+    height: 10vh;
 }
